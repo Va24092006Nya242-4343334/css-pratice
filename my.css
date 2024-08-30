@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;   
+}
+body{
+    height: 100vh;
+    
+}
+header{
+    height: 30vh;
+    background-color: blue; 
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+main{
+    background-color: rgb(16, 162, 126);
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    height: 30vh;
+    background-color: rgb(148, 21, 99);
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    
+}
+.text{
+    font-size:xx-large;
+    color: rgb(11, 11, 11);
+    font-family: 'Gill Sans', 'Calibri', sans-serif;
+}
+.text:hover{
+    font-size: xxx-large;
+    color: black;
+   font-variant:unset;
+}
